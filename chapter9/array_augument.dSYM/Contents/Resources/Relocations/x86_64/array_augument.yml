@@ -1,9 +1,0 @@
----
-triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/songsong/cprogramming/chapter9/array_augument'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E40, symSize: 0x90 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E40, symSize: 0x90 }
-  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _print_array, symObjAddr: 0x90, symBinAddr: 0x100003ED0, symSize: 0x60 }
-  - { offsetInCU: 0xC5, offset: 0xC5, size: 0x8, addend: 0x0, symName: _empty_array, symObjAddr: 0xF0, symBinAddr: 0x100003F30, symSize: 0x3D }
-...
