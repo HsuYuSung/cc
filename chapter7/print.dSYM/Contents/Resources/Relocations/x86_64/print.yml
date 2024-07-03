@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/songsong/cprogramming/chapter7/print'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _test_get_num, symObjAddr: 0x0, symBinAddr: 0x100003CC0, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _test_get_num, symObjAddr: 0x0, symBinAddr: 0x100003CC0, symSize: 0x40 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _test_get_char, symObjAddr: 0x40, symBinAddr: 0x100003D00, symSize: 0x70 }
+  - { offsetInCU: 0xB3, offset: 0xB3, size: 0x8, addend: 0x0, symName: _test_print, symObjAddr: 0xB0, symBinAddr: 0x100003D70, symSize: 0x170 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x220, symBinAddr: 0x100003EE0, symSize: 0x23 }
+...
