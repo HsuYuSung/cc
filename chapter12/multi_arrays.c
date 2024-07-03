@@ -6,6 +6,9 @@
 int main()
 {
 
+    // a[i] is equivalent to *(a+i)
+    // &a[i][0] is equivalent to &(*(a[i]+0)) and same as &(*(*(a+i)+0))
+
     int a[NUM_ROWS][NUM_COLUMNS] = {0}, (*p)[NUM_COLUMNS], i = 2;
 
     for (p = &a[0]; p < &a[NUM_ROWS]; p++)
